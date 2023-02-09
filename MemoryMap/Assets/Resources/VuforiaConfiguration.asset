@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: 
-    ufoLicenseKey: QVVzYysxYi8vLy8vQUFBQUtPUWpWdzJidjBLZXR5Y01uQ0ltMDhjcm03YnBoTG1TbUl5ODR3QnZpSzNrWjAvMklhL2o2VTV2RHhMaWhoZEpyKzhmRzRqRmJudU9GbkI1REJhR3lqWTBSMkR3TGVaUU5wdGZiQTRNVW1HNk9ZMXZIKzhHOFM0ZzFxeFVRY1VabzZmMkd2cTJnM0FqYm1DVXZaRTl5cDNuNXRhQzdZekp6V2R6anNDMTdiWUt3d0QxM0puS1RucThIUWxJSVM1WDJxRkkxZ0NkNHFkbG9yRGg5bENEbEE4cS9HT0IydmxhaEV1N3pQVklWSGJ2NG4wSy9YcWMwTW9rekp0U3k3aHZQZEUwcGlEL2xzem9zZjhDd2gvQ0wrc1FXdjJ1WXllbkhrbURBVVFhdzhaeEVCcThDZE12djJTUUpTVHN1RjhYVUdzVG1FVTk4bVlSZ1dkM1Y2bG1uWnJKS2trQjh1bGJKWUhWbXZBd2RVMjU=
+    ufoLicenseKey: QVpmS3piei8vLy8vQUFBQUtIQ1VjMXJIK1VnRXQxTWpsSmN2TUtaN2N3eWNTKytER2xoNFF3d3VUcFU4c0dURDhTNWRTM045QktaUTZxdFhJWkt2STB5L2I1Ui9MbGFhN2FRV2RwMTJJL2pWdlNPZThDOHdWNmsvQ3lSbi95SGhrUjQ0SDF2SjFrSlM4UXVON2ozWW5qS05qeDhuYnpLU2lMYWpIVk5WM3RyVzZpTHhNZXMzR051dU1mTTIrYy91dmJVWi9xTlBRVDdlMThsNS9pRUhXQ0lOYStodk9ER1dGN1VDc21wTXArRUErTlUrZG90Wk5jK1NuUmw1Mnd6akhnRUoydGJvWG9EbHNTSW5xQ0FDZWxrSm5xRC9Xak9jM0xWS1VoM0RqZW1MeUpZYTFKcnZGWDlzQUsrOE9sWkhvOEVCWi9nVkVGNDBNOGpXb3NzOTZjWkJaN3RkVDJuaUtUNHVMK0VoTkl1d0hxK3hvMVlac0dGYm5GdDg=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -23,17 +23,19 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 10.11.3
-    eulaAcceptedVersions: '{"Values":["10.11"]}'
+    version: 10.12.3
+    eulaAcceptedVersions: '{"Values":["10.11","0.0","10.12"]}'
   database:
     disableModelExtraction: 0
   shaders:
     depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
     outlineShader: {fileID: 4800000, guid: c1ded68d068051d4f92650fcddaae5c7, type: 3}
-    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
+      type: 0}
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a, type: 3}
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:

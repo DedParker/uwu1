@@ -7,6 +7,6 @@ public class ButtonLevel3 : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Map3");
+        SceneManager.LoadScene("Map3 new");
     }
 }
